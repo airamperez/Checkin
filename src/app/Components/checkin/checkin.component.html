@@ -1,0 +1,10 @@
+<section>
+    <div class="checkin-row"> 
+        <app-clock class="clock"></app-clock>
+        <button *ngIf="checkiCondition == false" (click)="checkin()" mat-raised-button color="primary">Entrar</button>
+        <button *ngIf="checkiCondition && pauseCondition == false" (click)="pause()"class="button" mat-raised-button color="accent">Pausar</button>
+        <button *ngIf="checkiCondition && pauseCondition" (click)="continue()"class="button" mat-raised-button color="accent">Reanudar</button>
+        <button *ngIf="checkiCondition" (click)="goOut()" class="button" mat-raised-button color="warn">Salir</button>
+        <app-menu class="menu"></app-menu>
+    </div>
+</section>

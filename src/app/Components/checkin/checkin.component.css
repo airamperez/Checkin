@@ -1,0 +1,20 @@
+
+section {
+    display: table;
+    text-align: center;
+    background-color:  #e0e2e2 ;
+    border-radius: 35px;
+    padding: 7px;
+  }
+
+.checkin-row {
+    display: table-cell;
+  }
+
+button{
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+.clock{
+    margin-left: 20px;
+}

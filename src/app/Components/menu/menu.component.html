@@ -1,0 +1,12 @@
+<img src="src/app/imagenes/user.png"><button mat-button [matMenuTriggerFor]="menu">Airam Pérez</button>
+<mat-menu #menu="matMenu">
+  <button mat-menu-item [matMenuTriggerFor]="menu2"> Mis cuentas</button>
+  <mat-menu #menu2="matMenu">
+    <button mat-menu-item>Airam1</button>
+    <button mat-menu-item>Airam2</button>
+  </mat-menu>
+  <button mat-menu-item>Vista empleado</button>
+  <button mat-menu-item>Mi perfil</button>
+  <button mat-menu-item>Cerrar sesión</button>
+</mat-menu>
+
